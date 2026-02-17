@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-repo/maven-project.git'
+                git 'https://github.com/chandrakanthbandarudba-del/Jenkin_file_proj.git'
             }
         }
 
