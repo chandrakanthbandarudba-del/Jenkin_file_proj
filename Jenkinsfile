@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/chandrakanthbandarudba-del/Jenkin_file_proj.git'
+                git branch: 'main', url: 'https://github.com/chandrakanthbandarudba-del/Jenkin_file_proj.git'
             }
         }
 
